@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "DevOps Project Deployed on Render, Hello! Dockerized app and Hello! my Devops app running"
+    return "DevOps Project Deployed on Render, Hello! Dockerized app my Devops app running"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
